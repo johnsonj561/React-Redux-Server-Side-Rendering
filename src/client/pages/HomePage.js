@@ -2,11 +2,9 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
-      <div>
-        Home Component Here!!!
-      </div>
-      <button onClick={() => console.log('CLICKED') }>Button</button>
+    <div className="center-align" style={{ marginTop: 200 }}>
+      <h3>Welcome</h3>
+      <p>Demonstrating Server Side Rendering with React and Redux</p>
     </div>
   );
 }
